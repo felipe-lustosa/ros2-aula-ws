@@ -14,7 +14,7 @@ class CountClient(Node):
         # Create the action client
         self.client = ActionClient(self, CountUntil, "count_until")
 
-        self.target = 20
+        self.target = 5
 
 
     def send_goal(self):
@@ -28,12 +28,33 @@ class CountClient(Node):
 
         future = self.client.send_goal_async(goal)
 
-        print("waiting for goal to be accepted")
+        # print("waiting for goal to be accepted")
+        # rclpy.spin_until_future_complete(self, future)
+        # print("goal accepted")
 
-        rclpy.spin_until_future_complete(self, future)
+        # Add a callback to handle the response from the action server
+        future.add_done_callback(self.goal_response_callback)
 
-        print("goal accepted")
 
+    def goal_response_callback(self, future):
+        goal_handle = future.result()
+
+        if not goal_handle.accepted:
+            self.get_logger().info("Goal rejected")
+            rclpy.shutdown()
+            return
+
+        self.get_logger().info("Goal accepted")
+
+        # Wait for the result
+        result_future = goal_handle.get_result_async()
+        result_future.add_done_callback(self.result_callback)
+
+
+    def result_callback(self, future):
+        result = future.result().result
+        self.get_logger().info(f"Result: {result.reached}, Message: {result.message}")
+        # rclpy.shutdown()
 
 
 
