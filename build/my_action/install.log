@@ -1,7 +1,9 @@
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action/CountServer.py
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action/__init__.py
+/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action/CountClient.py
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action/__pycache__/CountServer.cpython-312.pyc
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action/__pycache__/__init__.cpython-312.pyc
+/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action/__pycache__/CountClient.cpython-312.pyc
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/share/ament_index/resource_index/packages/my_action
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/share/my_action/package.xml
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action-0.0.0-py3.12.egg-info/dependency_links.txt
@@ -11,4 +13,5 @@
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action-0.0.0-py3.12.egg-info/entry_points.txt
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action-0.0.0-py3.12.egg-info/zip-safe
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/python3.12/site-packages/my_action-0.0.0-py3.12.egg-info/requires.txt
+/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/my_action/action_client
 /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_action/lib/my_action/action_server

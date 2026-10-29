@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'action_server = my_action.CountServer:main',
+            'action_client = my_action.CountClient:main',
         ],
     },
 )

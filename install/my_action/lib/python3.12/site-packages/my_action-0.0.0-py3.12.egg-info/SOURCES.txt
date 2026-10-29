@@ -9,6 +9,7 @@ setup.py
 ../../build/my_action/my_action.egg-info/requires.txt
 ../../build/my_action/my_action.egg-info/top_level.txt
 ../../build/my_action/my_action.egg-info/zip-safe
+my_action/CountClient.py
 my_action/CountServer.py
 my_action/__init__.py
 resource/my_action

@@ -1,2 +1,3 @@
 [console_scripts]
+action_client = my_action.CountClient:main
 action_server = my_action.CountServer:main

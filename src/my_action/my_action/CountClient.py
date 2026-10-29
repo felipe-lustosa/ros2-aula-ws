@@ -40,7 +40,11 @@ class CountClient(Node):
 def main(args=None):
     rclpy.init(args=args)
     myCountClient = CountClient()
+    myCountClient.send_goal()
     rclpy.spin(myCountClient)
+
+    myCountClient.destroy_node()
+    rclpy.shutdown()
 
 
 if __name__ == "__main__":
