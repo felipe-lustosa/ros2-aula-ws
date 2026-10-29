@@ -35,6 +35,8 @@ class CountServer(Node):
         # Update the goal status
         goal_handle.succeed()
 
+        print("Action completed")
+
         return result
 
 
