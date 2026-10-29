@@ -1,0 +1,27 @@
+[7.626s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub/build --no-deps symlink_data
+[9.247s] running develop
+[10.093s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[10.093s]   self.local_index = Environment(self.shadow_path + sys.path)
+[10.288s] running egg_info
+[10.289s] creating py_pubsub.egg-info
+[10.423s] writing py_pubsub.egg-info/PKG-INFO
+[10.426s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[10.427s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[10.428s] writing requirements to py_pubsub.egg-info/requires.txt
+[10.429s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[10.430s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[10.636s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[10.638s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[10.733s] running build_ext
+[10.735s] Creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/lib/python3.12/site-packages/py-pubsub.egg-link (link to .)
+[10.736s] Installing listener script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/lib/py_pubsub
+[10.738s] Installing talker script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/lib/py_pubsub
+[10.739s] 
+[10.739s] Installed /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub
+[10.740s] running symlink_data
+[10.741s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/share/ament_index
+[10.741s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/share/ament_index/resource_index
+[10.742s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[10.743s] symbolically linking /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub/resource/py_pubsub -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[10.746s] symbolically linking /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub/package.xml -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/share/py_pubsub
+[10.881s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_pubsub/build --no-deps symlink_data

@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000250] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000357] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000441] (ex_controle) JobQueued: {'identifier': 'ex_controle', 'dependencies': OrderedDict()}
+[0.000509] (ex_controle) JobStarted: {'identifier': 'ex_controle'}
+[0.096906] (-) TimerEvent: {}
+[0.197336] (-) TimerEvent: {}
+[0.297938] (-) TimerEvent: {}
+[0.398241] (-) TimerEvent: {}
+[0.498951] (-) TimerEvent: {}
+[0.599282] (-) TimerEvent: {}
+[0.699701] (-) TimerEvent: {}
+[0.800965] (-) TimerEvent: {}
+[0.901467] (-) TimerEvent: {}
+[1.002442] (-) TimerEvent: {}
+[1.102762] (-) TimerEvent: {}
+[1.205747] (-) TimerEvent: {}
+[1.306785] (-) TimerEvent: {}
+[1.407991] (-) TimerEvent: {}
+[1.509149] (-) TimerEvent: {}
+[1.609463] (-) TimerEvent: {}
+[1.710185] (-) TimerEvent: {}
+[1.810572] (-) TimerEvent: {}
+[1.914356] (-) TimerEvent: {}
+[2.014802] (-) TimerEvent: {}
+[2.115165] (-) TimerEvent: {}
+[2.216221] (-) TimerEvent: {}
+[2.317815] (-) TimerEvent: {}
+[2.419655] (-) TimerEvent: {}
+[2.520218] (-) TimerEvent: {}
+[2.620531] (-) TimerEvent: {}
+[2.723043] (-) TimerEvent: {}
+[2.823358] (-) TimerEvent: {}
+[2.923959] (-) TimerEvent: {}
+[3.024380] (-) TimerEvent: {}
+[3.124673] (-) TimerEvent: {}
+[3.225022] (-) TimerEvent: {}
+[3.326606] (-) TimerEvent: {}
+[3.426992] (-) TimerEvent: {}
+[3.528211] (-) TimerEvent: {}
+[3.628713] (-) TimerEvent: {}
+[3.729156] (-) TimerEvent: {}
+[3.829984] (-) TimerEvent: {}
+[3.932137] (-) TimerEvent: {}
+[4.032699] (-) TimerEvent: {}
+[4.133074] (-) TimerEvent: {}
+[4.233450] (-) TimerEvent: {}
+[4.333754] (-) TimerEvent: {}
+[4.434134] (-) TimerEvent: {}
+[4.534420] (-) TimerEvent: {}
+[4.634957] (-) TimerEvent: {}
+[4.735280] (-) TimerEvent: {}
+[4.835578] (-) TimerEvent: {}
+[4.936986] (ex_controle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build', '--no-deps', 'symlink_data'], 'cwd': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'claude-code_2-1-308_agent', 'USER': 'flca2', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': '1abb54d9c22508e26c1a407414d97c00', 'HOME': '/home/flca2', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'OLDPWD': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/ex_controle', 'TERM_PROGRAM_VERSION': '1.141.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'CLAUDE_CODE_CHILD_SESSION': '1', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2530', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2914', 'BUNDLED_DEBUGPY_PATH': '/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4019', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'flca2', 'JOURNAL_STREAM': '10:23842', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '58396', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'flca2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/flca2/.local/bin:/home/flca2/Documents/flutter/bin:/home/flca2/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/flca2/.local/bin:/home/flca2/Documents/flutter/bin:/home/flca2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/pc051-ubu:@/tmp/.ICE-unix/2873,unix/pc051-ubu:/tmp/.ICE-unix/2873', 'INVOCATION_ID': '1aa05b76a030443f9be3a25a7cc8cea3', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'medium', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c71b16d8f0721e54.txt', 'CLAUDE_PID': '32122', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/flca2/.config/Code/User/workspaceStorage/bcf489cec396912452e3063fbcd211fd/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-9f0f2f94b8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '51', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': 'e0baea64-9a99-4fb2-99d6-8d4480ce78af', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/flca2/.local/share/claude/versions/2.1.308', 'PYTHONPATH': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1001/cc-socks/32122.sock', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}), 'shell': False}
+[4.941927] (-) TimerEvent: {}
+[5.042371] (-) TimerEvent: {}
+[5.143136] (-) TimerEvent: {}
+[5.243441] (-) TimerEvent: {}
+[5.343743] (-) TimerEvent: {}
+[5.445079] (-) TimerEvent: {}
+[5.545497] (-) TimerEvent: {}
+[5.646051] (-) TimerEvent: {}
+[5.746444] (-) TimerEvent: {}
+[5.846738] (-) TimerEvent: {}
+[5.947024] (-) TimerEvent: {}
+[6.047320] (-) TimerEvent: {}
+[6.148047] (-) TimerEvent: {}
+[6.248344] (-) TimerEvent: {}
+[6.304417] (ex_controle) StdoutLine: {'line': b'running develop\n'}
+[6.348585] (-) TimerEvent: {}
+[6.449095] (-) TimerEvent: {}
+[6.551055] (-) TimerEvent: {}
+[6.651383] (-) TimerEvent: {}
+[6.751786] (-) TimerEvent: {}
+[6.852154] (-) TimerEvent: {}
+[6.956056] (-) TimerEvent: {}
+[7.056372] (-) TimerEvent: {}
+[7.153767] (ex_controle) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)\n'}
+[7.155003] (ex_controle) StderrLine: {'line': b'  self.local_index = Environment(self.shadow_path + sys.path)\n'}
+[7.156947] (-) TimerEvent: {}
+[7.257521] (-) TimerEvent: {}
+[7.316158] (ex_controle) StdoutLine: {'line': b'running egg_info\n'}
+[7.357597] (-) TimerEvent: {}
+[7.410230] (ex_controle) StdoutLine: {'line': b'writing ex_controle.egg-info/PKG-INFO\n'}
+[7.411342] (ex_controle) StdoutLine: {'line': b'writing dependency_links to ex_controle.egg-info/dependency_links.txt\n'}
+[7.414818] (ex_controle) StdoutLine: {'line': b'writing entry points to ex_controle.egg-info/entry_points.txt\n'}
+[7.415352] (ex_controle) StdoutLine: {'line': b'writing requirements to ex_controle.egg-info/requires.txt\n'}
+[7.415662] (ex_controle) StdoutLine: {'line': b'writing top-level names to ex_controle.egg-info/top_level.txt\n'}
+[7.457729] (-) TimerEvent: {}
+[7.558200] (-) TimerEvent: {}
+[7.593263] (ex_controle) StdoutLine: {'line': b"reading manifest file 'ex_controle.egg-info/SOURCES.txt'\n"}
+[7.597688] (ex_controle) StdoutLine: {'line': b"writing manifest file 'ex_controle.egg-info/SOURCES.txt'\n"}
+[7.658432] (-) TimerEvent: {}
+[7.692755] (ex_controle) StdoutLine: {'line': b'running build_ext\n'}
+[7.694147] (ex_controle) StdoutLine: {'line': b'Creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex-controle.egg-link (link to .)\n'}
+[7.697379] (ex_controle) StdoutLine: {'line': b'Installing cmd_arm script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle\n'}
+[7.697816] (ex_controle) StdoutLine: {'line': b'Installing cmd_head script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle\n'}
+[7.698158] (ex_controle) StdoutLine: {'line': b'Installing cmd_laser script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle\n'}
+[7.698888] (ex_controle) StdoutLine: {'line': b'Installing cmd_tiago script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle\n'}
+[7.699190] (ex_controle) StdoutLine: {'line': b'Installing cmd_turtle script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle\n'}
+[7.699479] (ex_controle) StdoutLine: {'line': b'Installing image_test script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle\n'}
+[7.700035] (ex_controle) StdoutLine: {'line': b'\n'}
+[7.700336] (ex_controle) StdoutLine: {'line': b'Installed /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle\n'}
+[7.700932] (ex_controle) StdoutLine: {'line': b'running symlink_data\n'}
+[7.759036] (-) TimerEvent: {}
+[7.839998] (ex_controle) CommandEnded: {'returncode': 0}
+[7.859295] (-) TimerEvent: {}
+[7.884274] (ex_controle) JobEnded: {'identifier': 'ex_controle', 'rc': 0}
+[7.886276] (-) EventReactorShutdown: {}

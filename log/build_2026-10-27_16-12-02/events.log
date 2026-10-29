@@ -1,0 +1,387 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (-) JobUnselected: {'identifier': 'ex_controle'}
+[0.000480] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000909] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001175] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.001684] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.016463] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.017672] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces'], 'cwd': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'claude-code_2-1-309_agent', 'USER': 'flca2', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': 'bb284c9b42036304c4fa210ac75f6486', 'HOME': '/home/flca2', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'OLDPWD': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces', 'TERM_PROGRAM_VERSION': '1.141.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'CLAUDE_CODE_CHILD_SESSION': '1', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2527', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2908', 'BUNDLED_DEBUGPY_PATH': '/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7494', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'flca2', 'JOURNAL_STREAM': '10:20362', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '58396', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'flca2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/flca2/.local/bin:/home/flca2/Documents/flutter/bin:/home/flca2/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/flca2/.local/bin:/home/flca2/Documents/flutter/bin:/home/flca2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/pc051-ubu:@/tmp/.ICE-unix/2869,unix/pc051-ubu:/tmp/.ICE-unix/2869', 'INVOCATION_ID': 'dffd26894258405b83a7557483fd006a', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'medium', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c71b16d8f0721e54.txt', 'CLAUDE_PID': '21412', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/flca2/.config/Code/User/workspaceStorage/bcf489cec396912452e3063fbcd211fd/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-9f0f2f94b8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '51', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': 'a0c0642a-214d-4324-b325-430c7f601e4a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/flca2/.local/share/claude/versions/2.1.309', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1001/cc-socks/21412.sock', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.043286] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099508] (-) TimerEvent: {}
+[0.199741] (-) TimerEvent: {}
+[0.299986] (-) TimerEvent: {}
+[0.400233] (-) TimerEvent: {}
+[0.496210] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.500344] (-) TimerEvent: {}
+[0.501102] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.578214] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600499] (-) TimerEvent: {}
+[0.645812] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.700623] (-) TimerEvent: {}
+[0.800894] (-) TimerEvent: {}
+[0.901197] (-) TimerEvent: {}
+[1.001541] (-) TimerEvent: {}
+[1.101811] (-) TimerEvent: {}
+[1.202065] (-) TimerEvent: {}
+[1.302308] (-) TimerEvent: {}
+[1.402567] (-) TimerEvent: {}
+[1.502782] (-) TimerEvent: {}
+[1.603135] (-) TimerEvent: {}
+[1.703515] (-) TimerEvent: {}
+[1.803788] (-) TimerEvent: {}
+[1.904028] (-) TimerEvent: {}
+[2.004273] (-) TimerEvent: {}
+[2.068657] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.104425] (-) TimerEvent: {}
+[2.204693] (-) TimerEvent: {}
+[2.304957] (-) TimerEvent: {}
+[2.405193] (-) TimerEvent: {}
+[2.505448] (-) TimerEvent: {}
+[2.605663] (-) TimerEvent: {}
+[2.705891] (-) TimerEvent: {}
+[2.806110] (-) TimerEvent: {}
+[2.906335] (-) TimerEvent: {}
+[2.947554] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.006624] (-) TimerEvent: {}
+[3.106980] (-) TimerEvent: {}
+[3.207312] (-) TimerEvent: {}
+[3.307684] (-) TimerEvent: {}
+[3.408007] (-) TimerEvent: {}
+[3.508315] (-) TimerEvent: {}
+[3.608581] (-) TimerEvent: {}
+[3.708829] (-) TimerEvent: {}
+[3.809088] (-) TimerEvent: {}
+[3.909345] (-) TimerEvent: {}
+[4.009679] (-) TimerEvent: {}
+[4.109915] (-) TimerEvent: {}
+[4.210143] (-) TimerEvent: {}
+[4.249090] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.259587] (my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.310258] (-) TimerEvent: {}
+[4.410508] (-) TimerEvent: {}
+[4.510829] (-) TimerEvent: {}
+[4.526922] (my_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.611059] (-) TimerEvent: {}
+[4.711292] (-) TimerEvent: {}
+[4.811487] (-) TimerEvent: {}
+[4.911731] (-) TimerEvent: {}
+[5.012010] (-) TimerEvent: {}
+[5.112292] (-) TimerEvent: {}
+[5.212574] (-) TimerEvent: {}
+[5.312834] (-) TimerEvent: {}
+[5.413140] (-) TimerEvent: {}
+[5.454524] (my_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.513348] (-) TimerEvent: {}
+[5.588965] (my_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.597956] (my_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.613570] (-) TimerEvent: {}
+[5.666340] (my_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.669764] (my_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.677881] (my_interfaces) StdoutLine: {'line': b'-- Configuring done (5.6s)\n'}
+[5.713706] (-) TimerEvent: {}
+[5.754334] (my_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.779986] (my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces\n'}
+[5.793090] (my_interfaces) CommandEnded: {'returncode': 0}
+[5.795017] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[5.795102] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'claude-code_2-1-309_agent', 'USER': 'flca2', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': 'bb284c9b42036304c4fa210ac75f6486', 'HOME': '/home/flca2', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'OLDPWD': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces', 'TERM_PROGRAM_VERSION': '1.141.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'CLAUDE_CODE_CHILD_SESSION': '1', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2527', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2908', 'BUNDLED_DEBUGPY_PATH': '/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7494', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'flca2', 'JOURNAL_STREAM': '10:20362', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '58396', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'flca2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/flca2/.local/bin:/home/flca2/Documents/flutter/bin:/home/flca2/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/flca2/.local/bin:/home/flca2/Documents/flutter/bin:/home/flca2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/pc051-ubu:@/tmp/.ICE-unix/2869,unix/pc051-ubu:/tmp/.ICE-unix/2869', 'INVOCATION_ID': 'dffd26894258405b83a7557483fd006a', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'medium', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c71b16d8f0721e54.txt', 'CLAUDE_PID': '21412', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/flca2/.config/Code/User/workspaceStorage/bcf489cec396912452e3063fbcd211fd/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-9f0f2f94b8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '51', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': 'a0c0642a-214d-4324-b325-430c7f601e4a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/flca2/.local/share/claude/versions/2.1.309', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1001/cc-socks/21412.sock', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.813823] (-) TimerEvent: {}
+[5.882235] (my_interfaces) StdoutLine: {'line': b'[  2%] Generating type hashes for ROS interfaces\n'}
+[5.882692] (my_interfaces) StdoutLine: {'line': b'[  5%] Generating Rust code for ROS interfaces\n'}
+[5.896521] (my_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_my_interfaces\n'}
+[5.913944] (-) TimerEvent: {}
+[6.014200] (-) TimerEvent: {}
+[6.114461] (-) TimerEvent: {}
+[6.214718] (-) TimerEvent: {}
+[6.314969] (-) TimerEvent: {}
+[6.378417] (my_interfaces) StdoutLine: {'line': b'[  5%] Built target my_interfaces__rosidl_generator_type_description\n'}
+[6.395838] (my_interfaces) StdoutLine: {'line': b'[  8%] Generating C code for ROS interfaces\n'}
+[6.403763] (my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.405985] (my_interfaces) StdoutLine: {'line': b'creating my_interfaces.egg-info\n'}
+[6.415092] (-) TimerEvent: {}
+[6.418632] (my_interfaces) StdoutLine: {'line': b'[ 11%] Generating C++ code for ROS interfaces\n'}
+[6.455914] (my_interfaces) StdoutLine: {'line': b'[ 11%] Built target my_interfaces__rs\n'}
+[6.477953] (my_interfaces) StdoutLine: {'line': b'writing my_interfaces.egg-info/PKG-INFO\n'}
+[6.478506] (my_interfaces) StdoutLine: {'line': b'writing dependency_links to my_interfaces.egg-info/dependency_links.txt\n'}
+[6.479082] (my_interfaces) StdoutLine: {'line': b'writing top-level names to my_interfaces.egg-info/top_level.txt\n'}
+[6.479350] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[6.515219] (-) TimerEvent: {}
+[6.615467] (-) TimerEvent: {}
+[6.632568] (my_interfaces) StdoutLine: {'line': b"reading manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[6.633930] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[6.683019] (my_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_my_interfaces_egg\n'}
+[6.715571] (-) TimerEvent: {}
+[6.815799] (-) TimerEvent: {}
+[6.916036] (-) TimerEvent: {}
+[7.016294] (-) TimerEvent: {}
+[7.116603] (-) TimerEvent: {}
+[7.216859] (-) TimerEvent: {}
+[7.317144] (-) TimerEvent: {}
+[7.391500] (my_interfaces) StdoutLine: {'line': b'[ 11%] Built target my_interfaces__cpp\n'}
+[7.398182] (my_interfaces) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/action/detail/count_until__functions.c.o\n'}
+[7.398817] (my_interfaces) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/action/detail/count_until__type_support.c.o\n'}
+[7.400281] (my_interfaces) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/action/detail/count_until__description.c.o\n'}
+[7.417297] (-) TimerEvent: {}
+[7.517491] (-) TimerEvent: {}
+[7.617718] (-) TimerEvent: {}
+[7.717989] (-) TimerEvent: {}
+[7.791139] (my_interfaces) StdoutLine: {'line': b'[ 22%] Linking C shared library libmy_interfaces__rosidl_generator_c.so\n'}
+[7.818189] (-) TimerEvent: {}
+[7.862333] (my_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_interfaces__rosidl_generator_c\n'}
+[7.881041] (my_interfaces) StdoutLine: {'line': b'[ 25%] Generating C type support for eProsima Fast-RTPS\n'}
+[7.881841] (my_interfaces) StdoutLine: {'line': b'[ 28%] Generating C introspection for ROS interfaces\n'}
+[7.886475] (my_interfaces) StdoutLine: {'line': b'[ 31%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[7.887730] (my_interfaces) StdoutLine: {'line': b'[ 37%] Generating C++ introspection for ROS interfaces\n'}
+[7.888028] (my_interfaces) StdoutLine: {'line': b'[ 37%] Generating C type support dispatch for ROS interfaces\n'}
+[7.888617] (my_interfaces) StdoutLine: {'line': b'[ 40%] Generating C++ type support dispatch for ROS interfaces\n'}
+[7.918317] (-) TimerEvent: {}
+[8.018691] (-) TimerEvent: {}
+[8.118959] (-) TimerEvent: {}
+[8.219566] (-) TimerEvent: {}
+[8.319809] (-) TimerEvent: {}
+[8.420276] (-) TimerEvent: {}
+[8.520592] (-) TimerEvent: {}
+[8.620890] (-) TimerEvent: {}
+[8.711986] (my_interfaces) StdoutLine: {'line': b'[ 42%] Building C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/action/detail/count_until__type_support.c.o\n'}
+[8.721766] (-) TimerEvent: {}
+[8.822038] (-) TimerEvent: {}
+[8.844660] (my_interfaces) StdoutLine: {'line': b'[ 45%] Linking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.922271] (-) TimerEvent: {}
+[8.923667] (my_interfaces) StdoutLine: {'line': b'[ 45%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[8.960298] (my_interfaces) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/action/count_until__type_support.cpp.o\n'}
+[8.980340] (my_interfaces) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/action/count_until__type_support.cpp.o\n'}
+[9.022391] (-) TimerEvent: {}
+[9.120955] (my_interfaces) StdoutLine: {'line': b'[ 54%] Linking CXX shared library libmy_interfaces__rosidl_typesupport_c.so\n'}
+[9.122495] (-) TimerEvent: {}
+[9.208936] (my_interfaces) StdoutLine: {'line': b'[ 57%] Building CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/action/detail/count_until__type_support.cpp.o\n'}
+[9.212688] (my_interfaces) StdoutLine: {'line': b'[ 57%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[9.223524] (-) TimerEvent: {}
+[9.288865] (my_interfaces) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/action/detail/count_until__type_support_c.cpp.o\n'}
+[9.324635] (-) TimerEvent: {}
+[9.424899] (-) TimerEvent: {}
+[9.525198] (-) TimerEvent: {}
+[9.530747] (my_interfaces) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/action/detail/dds_fastrtps/count_until__type_support.cpp.o\n'}
+[9.625336] (-) TimerEvent: {}
+[9.725672] (-) TimerEvent: {}
+[9.825972] (-) TimerEvent: {}
+[9.926288] (-) TimerEvent: {}
+[10.026622] (-) TimerEvent: {}
+[10.126937] (-) TimerEvent: {}
+[10.227246] (-) TimerEvent: {}
+[10.327560] (-) TimerEvent: {}
+[10.424746] (my_interfaces) StdoutLine: {'line': b'[ 65%] Linking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.427674] (-) TimerEvent: {}
+[10.493817] (my_interfaces) StdoutLine: {'line': b'[ 68%] Linking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.527844] (-) TimerEvent: {}
+[10.572091] (my_interfaces) StdoutLine: {'line': b'[ 68%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[10.627981] (-) TimerEvent: {}
+[10.637085] (my_interfaces) StdoutLine: {'line': b'[ 68%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[10.666644] (my_interfaces) StdoutLine: {'line': b'[ 71%] Linking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.728126] (-) TimerEvent: {}
+[10.816123] (my_interfaces) StdoutLine: {'line': b'[ 71%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.828253] (-) TimerEvent: {}
+[10.928579] (-) TimerEvent: {}
+[11.028925] (-) TimerEvent: {}
+[11.129256] (-) TimerEvent: {}
+[11.229575] (-) TimerEvent: {}
+[11.329906] (-) TimerEvent: {}
+[11.430168] (-) TimerEvent: {}
+[11.450137] (my_interfaces) StdoutLine: {'line': b'[ 74%] Linking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.530440] (-) TimerEvent: {}
+[11.588892] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[11.626172] (my_interfaces) StdoutLine: {'line': b'[ 74%] Built target my_interfaces\n'}
+[11.630501] (-) TimerEvent: {}
+[11.665231] (my_interfaces) StdoutLine: {'line': b'[ 77%] Generating Python code for ROS interfaces\n'}
+[11.730630] (-) TimerEvent: {}
+[11.831010] (-) TimerEvent: {}
+[11.931402] (-) TimerEvent: {}
+[12.031826] (-) TimerEvent: {}
+[12.132106] (-) TimerEvent: {}
+[12.232348] (-) TimerEvent: {}
+[12.332587] (-) TimerEvent: {}
+[12.432817] (-) TimerEvent: {}
+[12.533507] (-) TimerEvent: {}
+[12.633797] (-) TimerEvent: {}
+[12.734065] (-) TimerEvent: {}
+[12.834462] (-) TimerEvent: {}
+[12.934737] (-) TimerEvent: {}
+[13.035057] (-) TimerEvent: {}
+[13.135351] (-) TimerEvent: {}
+[13.214132] (my_interfaces) StdoutLine: {'line': b'[ 77%] Built target my_interfaces__py\n'}
+[13.235467] (-) TimerEvent: {}
+[13.252620] (my_interfaces) StdoutLine: {'line': b'[ 80%] Building C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/action/_count_until_s.c.o\n'}
+[13.335582] (-) TimerEvent: {}
+[13.435938] (-) TimerEvent: {}
+[13.536363] (-) TimerEvent: {}
+[13.636651] (-) TimerEvent: {}
+[13.676008] (my_interfaces) StdoutLine: {'line': b'[ 82%] Linking C shared library libmy_interfaces__rosidl_generator_py.so\n'}
+[13.736792] (-) TimerEvent: {}
+[13.759872] (my_interfaces) StdoutLine: {'line': b'[ 82%] Built target my_interfaces__rosidl_generator_py\n'}
+[13.795144] (my_interfaces) StdoutLine: {'line': b'[ 85%] Building C object CMakeFiles/my_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[13.795610] (my_interfaces) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/my_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[13.795865] (my_interfaces) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/my_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o\n'}
+[13.836927] (-) TimerEvent: {}
+[13.937211] (-) TimerEvent: {}
+[14.037512] (-) TimerEvent: {}
+[14.055327] (my_interfaces) StdoutLine: {'line': b'[ 94%] Linking C shared module rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.056177] (my_interfaces) StdoutLine: {'line': b'[ 97%] Linking C shared module rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.058988] (my_interfaces) StdoutLine: {'line': b'[100%] Linking C shared module rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.113150] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces_s__rosidl_typesupport_c\n'}
+[14.114567] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[14.116034] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[14.134999] (my_interfaces) CommandEnded: {'returncode': 0}
+[14.136238] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[14.137568] (-) TimerEvent: {}
+[14.151296] (my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces'], 'cwd': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/jazzy/lib', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'AI_AGENT': 'claude-code_2-1-309_agent', 'USER': 'flca2', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLAUDE_CODE_SESSION_ATTENDED': '1', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'CLAUDE_CODE_MESSAGING_TOKEN': 'bb284c9b42036304c4fa210ac75f6486', 'HOME': '/home/flca2', 'CHROME_DESKTOP': 'com.microsoft.VSCode.desktop', 'OLDPWD': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces', 'TERM_PROGRAM_VERSION': '1.141.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/com.microsoft.VSCode.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'CLAUDE_CODE_CHILD_SESSION': '1', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2527', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2908', 'BUNDLED_DEBUGPY_PATH': '/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7494', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'flca2', 'JOURNAL_STREAM': '10:20362', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'CLAUDE_CODE_SSE_PORT': '58396', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'flca2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'WINDOWPATH': '2', 'PATH': '/home/flca2/.local/bin:/home/flca2/Documents/flutter/bin:/home/flca2/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/flca2/.local/bin:/home/flca2/Documents/flutter/bin:/home/flca2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/pc051-ubu:@/tmp/.ICE-unix/2869,unix/pc051-ubu:/tmp/.ICE-unix/2869', 'INVOCATION_ID': 'dffd26894258405b83a7557483fd006a', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1001', 'CLAUDE_EFFORT': 'medium', 'DISPLAY': ':1', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/flca2/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c71b16d8f0721e54.txt', 'CLAUDE_PID': '21412', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/flca2/.config/Code/User/workspaceStorage/bcf489cec396912452e3063fbcd211fd/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1001/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-9f0f2f94b8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1001/keyring/ssh', 'ROS_DOMAIN_ID': '51', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'CLAUDE_CODE_SESSION_ID': 'a0c0642a-214d-4324-b325-430c7f601e4a', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1001/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'CLAUDE_CODE_EXECPATH': '/home/flca2/.local/share/claude/versions/2.1.309', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CLAUDE_CODE_MESSAGING_SOCKET': '/run/user/1001/cc-socks/21412.sock', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.166334] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.167006] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[14.167539] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/action/CountUntil.json\n'}
+[14.168017] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[14.168431] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[14.168801] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.169124] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[14.169459] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/count_until.h\n'}
+[14.169784] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[14.170039] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__type_support.h\n'}
+[14.170488] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__description.c\n'}
+[14.171000] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__struct.h\n'}
+[14.171291] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__functions.h\n'}
+[14.171648] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__type_support.c\n'}
+[14.172149] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__functions.c\n'}
+[14.172532] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[14.172796] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[14.173051] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[14.173379] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""\n'}
+[14.173644] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[14.174041] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[14.174465] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.174890] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[14.175279] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[14.175714] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_c.h\n'}
+[14.176026] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.176283] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.176647] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[14.177068] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[14.177401] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.177675] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[14.177952] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[14.178289] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h\n'}
+[14.178554] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__type_support.c\n'}
+[14.178948] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.179436] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.180012] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[14.180585] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[14.181163] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[14.181764] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[14.182216] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.182582] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[14.182855] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[14.183131] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__type_support.hpp\n'}
+[14.183417] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__traits.hpp\n'}
+[14.183688] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__builder.hpp\n'}
+[14.183949] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__struct.hpp\n'}
+[14.184193] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/count_until.hpp\n'}
+[14.184436] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[14.184670] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[14.184908] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.185147] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[14.185388] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[14.185662] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.185919] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/dds_fastrtps\n'}
+[14.186162] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.186422] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.186681] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[14.186936] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action\n'}
+[14.187174] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail\n'}
+[14.187453] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.187747] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/include/my_interfaces/my_interfaces/action/detail/count_until__type_support.cpp\n'}
+[14.188027] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.188352] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.188583] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.188779] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.188935] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[14.189080] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[14.189223] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info\n'}
+[14.189370] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[14.189536] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[14.189677] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[14.189822] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[14.189960] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces\n'}
+[14.190097] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.190236] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.190373] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.190533] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/__init__.py\n'}
+[14.190671] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.190810] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.190949] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.191085] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/action\n'}
+[14.191225] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/action/_count_until.py\n'}
+[14.191360] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/action/__init__.py\n'}
+[14.191518] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/action/_count_until_s.c\n'}
+[14.237709] (-) TimerEvent: {}
+[14.293172] (my_interfaces) StdoutLine: {'line': b"Listing '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces'...\n"}
+[14.293529] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/__init__.py'...\n"}
+[14.293696] (my_interfaces) StdoutLine: {'line': b"Listing '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/action'...\n"}
+[14.293862] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/action/__init__.py'...\n"}
+[14.294007] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/action/_count_until.py'...\n"}
+[14.304822] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.305602] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.306044] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.306840] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.307325] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.308148] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/python3.12/site-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[14.308551] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so\n'}
+[14.309169] (my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.309403] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/rust\n'}
+[14.309679] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/rust/build.rs\n'}
+[14.309936] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/rust/src\n'}
+[14.310125] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/rust/src/action.rs\n'}
+[14.310332] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/rust/src/lib.rs\n'}
+[14.310620] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/rust/src/action\n'}
+[14.310768] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/rust/src/action/rmw.rs\n'}
+[14.310981] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/rust/Cargo.toml\n'}
+[14.311198] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/action/CountUntil.idl\n'}
+[14.311648] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/action/CountUntil.action\n'}
+[14.312126] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[14.312609] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[14.312973] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[14.313301] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.313721] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[14.314070] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[14.314494] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[14.314928] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[14.315266] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[14.315678] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[14.316019] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[14.316479] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[14.316909] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.317242] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.317614] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.317964] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.318327] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.318669] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.319031] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.319415] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.319750] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.320086] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.320440] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.320802] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.321136] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.321484] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.321810] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.322125] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.322450] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.322904] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.323256] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.323642] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.324140] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.324483] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.324818] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.325219] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.325594] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[14.325930] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[14.326189] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[14.326459] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[14.330164] (my_interfaces) CommandEnded: {'returncode': 0}
+[14.337982] (-) TimerEvent: {}
+[14.371078] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[14.372504] (-) EventReactorShutdown: {}

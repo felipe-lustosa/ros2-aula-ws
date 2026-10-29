@@ -1,0 +1,12 @@
+[31mCMake Error at CMakeLists.txt:15 (rosidl_generate_interfaces):
+  Syntax error in cmake code at
+
+    /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces/CMakeLists.txt:15
+
+  when parsing string
+
+    ${PROJECT
+
+  There is an unterminated variable reference.
+
+[0m

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_interfaces/action/CountUntil_Goal",
+      "fields": [
+        {
+          "name": "target",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "simulate_failure",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_interfaces/action/CountUntil_Goal",
+      "hash_string": "RIHS01_2157b8234207f2494f615af59d9b8347ee4b2450eaba15722d7cb6db7156f0d8"
+    }
+  ]
+}

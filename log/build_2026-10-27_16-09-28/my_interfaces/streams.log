@@ -1,0 +1,33 @@
+[0.606s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces
+[1.131s] -- The C compiler identification is GNU 13.3.0
+[1.294s] -- The CXX compiler identification is GNU 13.3.0
+[1.331s] -- Detecting C compiler ABI info
+[1.578s] -- Detecting C compiler ABI info - done
+[1.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.617s] -- Detecting C compile features
+[1.619s] -- Detecting C compile features - done
+[1.642s] -- Detecting CXX compiler ABI info
+[1.882s] -- Detecting CXX compiler ABI info - done
+[1.910s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.911s] -- Detecting CXX compile features
+[1.914s] -- Detecting CXX compile features - done
+[1.952s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.434s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.903s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.184s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.367s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.373s] [31mCMake Error at CMakeLists.txt:15 (rosidl_generate_interfaces):
+[3.374s]   Syntax error in cmake code at
+[3.374s] 
+[3.374s]     /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces/CMakeLists.txt:15
+[3.375s] 
+[3.375s]   when parsing string
+[3.375s] 
+[3.376s]     ${PROJECT
+[3.376s] 
+[3.376s]   There is an unterminated variable reference.
+[3.377s] 
+[3.377s] [0m
+[3.377s] -- Configuring incomplete, errors occurred!
+[3.391s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces

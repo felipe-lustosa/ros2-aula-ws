@@ -1,0 +1,27 @@
+[4.002s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/ex_controle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_controle build --build-base /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build install --record /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/install.log --install-scripts $base/lib/ex_controle --single-version-externally-managed install_data
+[4.675s] running egg_info
+[4.723s] writing ../../build/ex_controle/ex_controle.egg-info/PKG-INFO
+[4.723s] writing dependency_links to ../../build/ex_controle/ex_controle.egg-info/dependency_links.txt
+[4.725s] writing entry points to ../../build/ex_controle/ex_controle.egg-info/entry_points.txt
+[4.725s] writing requirements to ../../build/ex_controle/ex_controle.egg-info/requires.txt
+[4.726s] writing top-level names to ../../build/ex_controle/ex_controle.egg-info/top_level.txt
+[4.828s] reading manifest file '../../build/ex_controle/ex_controle.egg-info/SOURCES.txt'
+[4.829s] adding license file 'LICENSE'
+[4.830s] writing manifest file '../../build/ex_controle/ex_controle.egg-info/SOURCES.txt'
+[4.831s] running build
+[4.831s] running build_py
+[4.834s] running install
+[4.851s] running install_lib
+[4.901s] running install_data
+[4.902s] running install_egg_info
+[4.961s] removing '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle-0.0.0-py3.12.egg-info' (and everything under it)
+[4.961s] Copying ../../build/ex_controle/ex_controle.egg-info to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle-0.0.0-py3.12.egg-info
+[4.963s] running install_scripts
+[5.477s] Installing cmd_arm script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[5.477s] Installing cmd_head script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[5.479s] Installing cmd_laser script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[5.479s] Installing cmd_tiago script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[5.479s] Installing cmd_turtle script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[5.480s] Installing image_test script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[5.481s] writing list of installed files to '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/install.log'
+[5.552s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/ex_controle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_controle build --build-base /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build install --record /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/install.log --install-scripts $base/lib/ex_controle --single-version-externally-managed install_data

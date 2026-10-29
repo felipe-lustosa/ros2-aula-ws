@@ -1,0 +1,59 @@
+[3.236s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build
+[3.967s] running develop
+[4.370s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[4.370s]   self.local_index = Environment(self.shadow_path + sys.path)
+[4.454s] Removing /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex-controle.egg-link (link to .)
+[4.525s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build
+[4.528s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/ex_controle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_controle build --build-base /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build install --record /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/install.log --install-scripts $base/lib/ex_controle --single-version-externally-managed install_data --force
+[5.265s] running egg_info
+[5.314s] writing ../../build/ex_controle/ex_controle.egg-info/PKG-INFO
+[5.314s] writing dependency_links to ../../build/ex_controle/ex_controle.egg-info/dependency_links.txt
+[5.315s] writing entry points to ../../build/ex_controle/ex_controle.egg-info/entry_points.txt
+[5.315s] writing requirements to ../../build/ex_controle/ex_controle.egg-info/requires.txt
+[5.315s] writing top-level names to ../../build/ex_controle/ex_controle.egg-info/top_level.txt
+[5.418s] reading manifest file '../../build/ex_controle/ex_controle.egg-info/SOURCES.txt'
+[5.419s] adding license file 'LICENSE'
+[5.420s] writing manifest file '../../build/ex_controle/ex_controle.egg-info/SOURCES.txt'
+[5.421s] running build
+[5.421s] running build_py
+[5.422s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build
+[5.422s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib
+[5.422s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle
+[5.423s] copying ex_controle/process_laser.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle
+[5.423s] copying ex_controle/control_turtle.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle
+[5.424s] copying ex_controle/control_arm.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle
+[5.424s] copying ex_controle/__init__.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle
+[5.425s] copying ex_controle/control_tiago.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle
+[5.425s] copying ex_controle/control_head.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle
+[5.426s] copying ex_controle/process_image.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle
+[5.427s] running install
+[5.443s] running install_lib
+[5.498s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle
+[5.501s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle/process_laser.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle
+[5.501s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle/control_turtle.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle
+[5.501s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle/control_arm.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle
+[5.502s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle/__init__.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle
+[5.502s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle/control_tiago.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle
+[5.502s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle/control_head.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle
+[5.503s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build/lib/ex_controle/process_image.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle
+[5.503s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle/process_laser.py to process_laser.cpython-312.pyc
+[5.504s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle/control_turtle.py to control_turtle.cpython-312.pyc
+[5.504s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle/control_arm.py to control_arm.cpython-312.pyc
+[5.505s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle/__init__.py to __init__.cpython-312.pyc
+[5.505s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle/control_tiago.py to control_tiago.cpython-312.pyc
+[5.507s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle/control_head.py to control_head.cpython-312.pyc
+[5.508s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle/process_image.py to process_image.cpython-312.pyc
+[5.510s] running install_data
+[5.510s] copying resource/ex_controle -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/share/ament_index/resource_index/packages
+[5.511s] copying package.xml -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/share/ex_controle
+[5.511s] running install_egg_info
+[5.566s] Copying ../../build/ex_controle/ex_controle.egg-info to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex_controle-0.0.0-py3.12.egg-info
+[5.568s] running install_scripts
+[6.012s] Installing cmd_arm script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[6.013s] Installing cmd_head script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[6.014s] Installing cmd_laser script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[6.015s] Installing cmd_tiago script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[6.016s] Installing cmd_turtle script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[6.016s] Installing image_test script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[6.016s] writing list of installed files to '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/install.log'
+[6.077s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/ex_controle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_controle build --build-base /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build install --record /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/install.log --install-scripts $base/lib/ex_controle --single-version-externally-managed install_data --force

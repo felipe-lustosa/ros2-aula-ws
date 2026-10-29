@@ -1,0 +1,43 @@
+[3.213s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build
+[3.919s] running develop
+[4.333s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[4.334s]   self.local_index = Environment(self.shadow_path + sys.path)
+[4.421s] Removing /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py-srvcli.egg-link (link to .)
+[4.493s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build
+[4.496s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/py_srvcli': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build install --record /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed install_data --force
+[5.227s] running egg_info
+[5.274s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[5.275s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[5.275s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[5.276s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[5.276s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[5.376s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[5.377s] adding license file 'LICENSE'
+[5.378s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[5.378s] running build
+[5.378s] running build_py
+[5.379s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build
+[5.379s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build/lib
+[5.379s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build/lib/py_srvcli
+[5.380s] copying py_srvcli/service_member_function.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build/lib/py_srvcli
+[5.380s] copying py_srvcli/__init__.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build/lib/py_srvcli
+[5.380s] copying py_srvcli/client_member_function.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build/lib/py_srvcli
+[5.380s] running install
+[5.394s] running install_lib
+[5.448s] creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[5.449s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[5.449s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[5.449s] copying /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli
+[5.450s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-312.pyc
+[5.452s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/__init__.py to __init__.cpython-312.pyc
+[5.452s] byte-compiling /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-312.pyc
+[5.453s] running install_data
+[5.454s] copying resource/py_srvcli -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[5.454s] copying package.xml -> /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/share/py_srvcli
+[5.454s] running install_egg_info
+[5.511s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info
+[5.514s] running install_scripts
+[5.867s] Installing client script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/py_srvcli
+[5.867s] Installing service script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/py_srvcli
+[5.868s] writing list of installed files to '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/install.log'
+[5.932s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/py_srvcli' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/build install --record /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed install_data --force

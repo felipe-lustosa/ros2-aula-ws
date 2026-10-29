@@ -1,0 +1,24 @@
+[4.941s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build --no-deps symlink_data
+[6.304s] running develop
+[7.154s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[7.155s]   self.local_index = Environment(self.shadow_path + sys.path)
+[7.316s] running egg_info
+[7.410s] writing ex_controle.egg-info/PKG-INFO
+[7.411s] writing dependency_links to ex_controle.egg-info/dependency_links.txt
+[7.415s] writing entry points to ex_controle.egg-info/entry_points.txt
+[7.415s] writing requirements to ex_controle.egg-info/requires.txt
+[7.415s] writing top-level names to ex_controle.egg-info/top_level.txt
+[7.594s] reading manifest file 'ex_controle.egg-info/SOURCES.txt'
+[7.597s] writing manifest file 'ex_controle.egg-info/SOURCES.txt'
+[7.693s] running build_ext
+[7.694s] Creating /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages/ex-controle.egg-link (link to .)
+[7.697s] Installing cmd_arm script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[7.697s] Installing cmd_head script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[7.698s] Installing cmd_laser script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[7.698s] Installing cmd_tiago script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[7.699s] Installing cmd_turtle script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[7.699s] Installing image_test script to /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/ex_controle
+[7.700s] 
+[7.700s] Installed /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle
+[7.700s] running symlink_data
+[7.842s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/ex_controle/build --no-deps symlink_data

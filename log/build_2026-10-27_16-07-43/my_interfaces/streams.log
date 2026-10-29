@@ -1,0 +1,7 @@
+[0.594s] Invoking command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces
+[1.155s] [31mCMake Error at CMakeLists.txt:13:
+[1.156s]   Parse error.  Expected "(", got identifier with text "package".
+[1.157s] 
+[1.158s] [0m
+[1.158s] -- Configuring incomplete, errors occurred!
+[1.660s] Invoked command in '/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/build/my_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_srvcli:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/py_pubsub:/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/ex_controle:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/src/my_interfaces -DCMAKE_INSTALL_PREFIX=/home/flca2/Documents/dev/programacao_robos/ros2_aula_ws/install/my_interfaces

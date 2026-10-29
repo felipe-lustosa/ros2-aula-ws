@@ -1,0 +1,2 @@
+[console_scripts]
+action_server = my_action.CountServer:main
