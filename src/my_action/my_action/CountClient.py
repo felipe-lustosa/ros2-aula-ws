@@ -14,7 +14,7 @@ class CountClient(Node):
         # Create the action client
         self.client = ActionClient(self, CountUntil, "count_until")
 
-        self.target = 5
+        self.target = 8
 
 
     def send_goal(self):
@@ -26,7 +26,7 @@ class CountClient(Node):
         goal = CountUntil.Goal()
         goal.target = self.target
 
-        future = self.client.send_goal_async(goal)
+        future = self.client.send_goal_async(goal, feedback_callback=self.feedback_callback)
 
         # print("waiting for goal to be accepted")
         # rclpy.spin_until_future_complete(self, future)
@@ -34,6 +34,11 @@ class CountClient(Node):
 
         # Add a callback to handle the response from the action server
         future.add_done_callback(self.goal_response_callback)
+
+
+    def feedback_callback(self, feedback_msg):
+        feedback = feedback_msg.feedback
+        self.get_logger().info(f"Feedback: {feedback.current}")
 
 
     def goal_response_callback(self, future):
